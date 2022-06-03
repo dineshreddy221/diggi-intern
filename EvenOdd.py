@@ -1,3 +1,4 @@
+# defing a fuction for even odd numbers.
 def even_odd(num):
     if num%2==0:
         print("Even Number : {}".format(num))
