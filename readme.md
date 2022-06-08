@@ -1,2 +1,2 @@
 # python project
-this is a web application project
+Practing the python with diiferent concepts.

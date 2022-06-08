@@ -10,3 +10,9 @@ print(home.class_variable)
 home.display()  # to call a method we need to use paranthesis
 
 print(home.__doc__)
+
+# gives the class variable.
+print(home.class_variable)
+
+# gives the instance variables in a dictionry
+print(home.__dict__)
