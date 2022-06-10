@@ -1,13 +1,23 @@
-class MyHome:
-  ''' This is my home town. '''
-  class_variable = 'Red house'
-  def display(self):   # self is mandatory in display the written content in this method
-    print("Welcome to Anantapur successfull")
 
-home = MyHome()     # instance creation.
+class MyHome:
+    """ This is my hometown."""
+    class_variable = 'New house'
+
+    def __init__(self, color, rooms):
+        self.color = color
+        self.rooms = rooms
+
+    def show(self):
+        print("*" * 15)
+        print("color : ", self.color)
+        print("rooms : ", self.rooms)
+        print("*" * 15)
+
+
+home = MyHome("White", 3)  # instance creation.
 print(home.class_variable)
 
-home.display()  # to call a method we need to use paranthesis
+home.show()  # to call a method we need to use paranthesis
 
 print(home.__doc__)
 
