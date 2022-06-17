@@ -27,4 +27,8 @@ print(df['Gender'].unique(), end='\n\n')
 
 # finding the surname of male using geography as spain.
 df_surname = df['Surname'][(df['Gender'] == 'Male') & (df['Geography'] == 'Spain')]
-print(df_surname)
+print(df_surname, end='\n\n')
+
+print("finding the surname and gender of people above 18 years: ")
+df_gn = df[['Surname', 'Gender']][df['Age'] > 18]
+print(df_gn)
