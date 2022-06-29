@@ -1,2 +1,4 @@
-1. Git commands
-2. commit, push, pull, remote, branch, checkout.
+dinesh
+hi, welcome
+writing a new lines with append mode
+the lines has appended
